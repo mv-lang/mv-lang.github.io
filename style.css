@@ -1,0 +1,189 @@
+#welcome{
+    text-align: center !important;
+    font-family:Monoton;
+    font-size: 5em;
+    letter-spacing: 2px;
+}
+body{
+     background: linear-gradient(135deg, #ffccd2 0%, #fff5f8 100%);
+}
+h1{
+    text-align: center;
+}
+#explore{
+    text-align: center !important;
+    font-size: 4em;
+    font-family: Amatic SC !important;
+    font-weight: bold;
+    margin: 0px;
+}
+#Explore{
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(102, 26, 44);
+    margin:30px auto 0 auto;
+    width: fit-content;
+    max-width: 300px;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+#aboutme{
+    text-align:center;
+    font-family: Quicksand;
+    font-size: 3em;
+    
+}
+#about-me{
+   font-family: Quicksand;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color:rgb(168, 70, 93);
+    margin: 50px;
+}
+button{
+    display:block;
+    margin:30px auto 0 auto;
+    background-color: rgb(102, 26, 44);
+    color:white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    font-style: Quicksand;
+    float: none;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+button:hover{
+    transform : translateY(-10px) scale(1.03);
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    padding: 40px;
+    
+   
+}
+ul {
+    list-style: none; 
+    padding: 0;       
+    margin: 0;
+}
+ul li {
+    margin: 10px 0;
+    padding-left: 25px;
+    position: relative;
+    font-family: Quicksand;
+    font-size: 0.9em; 
+}
+.card ul {
+    background-color: #fff5f8;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.card li {
+    color: #333; 
+}
+.card {
+  background: hsl(0, 79%, 72%);
+  font-family: Quicksand;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 0px;
+  font-size: 1.4em;
+  font-weight: bold;
+  width: 360px;
+  min-height: 360px;
+  overflow: auto;
+  cursor: pointer;
+  animation-duration: 2.5s;
+  animation-name: rotate;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+  .card:hover{
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: rgba(0,0,0,0.18);
+  }
+  
+
+@keyframes rotate{
+    100%{transform: rotateY(360deg);}
+}
+#card1{
+    margin-bottom: 50px;
+}
+#card2{
+    margin-bottom: 50px;
+    margin-left: 35px;
+}
+#card3{
+    margin-bottom: 50px;
+}
+#card4{
+    margin-bottom: 50px;
+    margin-left: 35px;
+}
+.centre-container{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.moodboard{
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.moodboard-img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 500px;
+    background-color: rgb(118,46,63);
+    border-radius: 20px;
+}
+.moodboard-img img{
+     width: 100%;
+    height:auto;
+    display: block;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+.moodboard h2{
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 3em;
+}
+.card h3{
+    font-family: Quicksand;
+    font-size: 1.5em;
+}
+footer {
+  background-color: rgb(118,46,63);
+  color: white;             
+  text-align: center;     
+  padding: 20px;           
+  margin-top: 50px;        
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
